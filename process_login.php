@@ -1,5 +1,5 @@
 <?php include'header.php'; ?>
-<?php include'config.php'; ?>
+
 
 <?php
 session_start();
@@ -32,6 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit();
     } else {
         // Invalid credentials, show error or redirect to login page
+        header("Location: index.php"); 
         echo "Invalid credentials.";
     }
 }
