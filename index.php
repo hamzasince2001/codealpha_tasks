@@ -20,6 +20,9 @@
 </div>      
 <button type="submit" class="login-btn">Login</button>
     </form>
+    <div class="signup-link">
+        <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
+    </div>
   </div>
 </body>
 </html>

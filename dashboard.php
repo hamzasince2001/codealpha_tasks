@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <div class="central-container">
         <div>
             <h4>CODE ALPHA</h4>
@@ -35,8 +36,10 @@
     </a>
 </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+            <p>Dedicated and motivated Computer Software Engineering student with a strong
+foundation in web development and a passion for creating innovative digital solutions.
+Seeking aWeb Development opportunity to apply and enhance my skills in a dynamic
+professional environment and enhance my skills and add value to organization.</div>
     </div>
     
 </body>

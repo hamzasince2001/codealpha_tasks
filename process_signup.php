@@ -1,4 +1,6 @@
 <?php include'header.php'; ?>
+<?php include'config.php'; ?>
+
 <?php
 session_start();
 
@@ -26,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Valid credentials, set session and redirect
         $_SESSION['logged_in'] = true;
         $_SESSION['uname'] = $uname;
-        header("Location: dashboard.php"); // Redirect to the desired page
+        header("Location: seek_dashboard.php"); // Redirect to the desired page
         exit();
     } else {
         // Invalid credentials, show error or redirect to login page

@@ -64,3 +64,11 @@ h4 {
         width: 80%;
     }
 }
+.underline-link {
+    text-decoration: underline;
+    color: blue; /* Change the color as needed */
+}
+
+.underline-link:hover {
+    text-decoration: none; /* Remove the underline on hover */
+}
